@@ -1,12 +1,12 @@
 import random
 
 class Pokemon:
-    basic_attack = 'Fling'
+    basic_attack = 'Lick'
     damage = 40;
     paralysis_roll = 0.3
 
-    def __init__(self, Lucario, TJ):
-        self.name = Lucario
+    def __init__(self, Haunter, TJ):
+        self.name = Haunter
         self.trainer = TJ
         self.level = 1
         self.hp = 50
