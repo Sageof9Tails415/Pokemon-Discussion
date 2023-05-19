@@ -8,6 +8,7 @@ class Pokemon:
         self.level = 1
         self.hp = 50
         self.paralyzed = False
+        self.probability = 1
 
     def speak(self):
         print(self.name + '!')
